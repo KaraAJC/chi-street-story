@@ -18,3 +18,25 @@ h1 {
    height: 400px;
    background-color: grey;
  }
+
+#main-logo {
+  width: 80px;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #42A5F5;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #42A5F5;
+  box-shadow: 0 1px 0 0 #42A5F5;
+}
+.input-field .prefix.active {
+  color: #42A5F5;
+}
+
+footer {
+  text-align: center;
+}

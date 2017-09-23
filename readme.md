@@ -29,3 +29,6 @@ ChiStreetStory is a site built from a hackathon during the [Nerd Immersion]() ev
   - [Chicago Streets Info](http://www.chsmedia.org/househistory/nameChanges/start.pdf)
   - [Wikipedia list of Chicago Placename etymologies](https://en.wikipedia.org/wiki/List_of_Chicago_placename_etymologies)
   - [Honorary Chicago](http://www.honorarychicago.com/frequently-asked-questions-faq) : a site listing honorary chicago street names
+
+  ## Thanks and Attributions
+   - street sign in header by Amos Meron from [the Noun Project](https://thenounproject.com/term/street-sign/28140/)
