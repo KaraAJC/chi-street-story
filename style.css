@@ -37,6 +37,17 @@ h1 {
   color: #42A5F5;
 }
 
+span {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+}
+
 footer {
   text-align: center;
+}
+
+.street-responses {
+  padding-left: 50px;
 }

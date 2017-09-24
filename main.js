@@ -20,6 +20,8 @@ function initMap() {
 
 $( document ).ready(function() {
     console.log( "I's ready!" );
+  const streets = [];
+
   $.ajax({
       url: "https://data.cityofchicago.org/resource/pasq-g8mx.json",
       type: "GET",
@@ -31,8 +33,11 @@ $( document ).ready(function() {
   }).done(function(data) {
     console.log("Retrieved " + data.length + " records from the dataset!");
     // console.log(data);
-    console.log(data)
+    // console.log(data)
+    streets.push(...data);
   });
+
+
 
   $('input.autocomplete').autocomplete({
       data: {
@@ -40,11 +45,50 @@ $( document ).ready(function() {
         "State": null,
         "Michigan": null,
         "Pulaski": null,
+        "Abbott": null
       },
-      limit: 20, // The max amount of results that can be shown at once. Default: Infinity.
+      limit: 2, // The max amount of results that can be shown at once. Default: Infinity.
       onAutocomplete: function(val) {
         // Callback function when value is autcompleted.
+        console.log(val)
+        displayMatches()
+        // findMatches(val, streets);
       },
       minLength: 1, // The minimum length of the input for the autocomplete to start. Default: 1.
     });
+
+  function findMatches(wordToMatch, streets) {
+    console.log(wordToMatch)
+    console.log(streets)
+    // return streets.filter(street => {
+    //   const regex = new RegExp(wordToMatch, 'gi');
+    //   console.log(street)
+    // })
+  }
+
+  function displayMatches() {
+    // const matchArray = findMatches(this.value, streets)
+    // const html = matchArray.map(street => {
+    //   const regex = new RegExp(this.value, 'gi');
+      const streetName = `${streets[0].street} ${streets[0].suffix}`
+      const streetStart = `${streets[0].min_address} ${streets[0].full_street_name}`
+      const streetEnd = `${streets[0].max_address} ${streets[0].full_street_name}`
+      html =  `
+      <li>
+        <p class="street-responses">Check out
+        <span class="name">${streetName}</span>.
+         This street runs from
+        <span class="streetStart">${streetStart} </span>
+         to
+        <span class="streetEnd">${streetEnd} </span>
+        What a STREET!</p>
+      </li>
+      `
+   return results.innerHTML = html
+  }
+
+const searchInput = document.querySelector('.search-form')
+const results = document.querySelector('.street-responses')
+
 });
+
