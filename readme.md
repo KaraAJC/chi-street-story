@@ -7,9 +7,9 @@ ChiStreetStory is a site built from a hackathon during the [Nerd Immersion](http
 ![My Nerd immersion Whiteboard](https://lh3.googleusercontent.com/5G9x-9WARvpWlDdFEAkZm8MGnMxKf4HM_5N8NRLi6N8tlybJkI1gLMLS06lWA4UXn7hoghyMHSiXKUTS4KiQxoHQhT57GFV4tPvOyJMLWYSf5H6LFLLahZe9P4Fu2ypw6upVs2u8DSk3DnNcqzDPJ_cD7AkMveojyOZlYBB0KKXtUENJEN7DYeKFLD8Mz0cgYl8lEtRL-mi2crrj42rMPVs6bSwJZQuZC9cFGiALsRA7KHyAUgnF8WJBUUuq8ptB3caWdZ3rSpkrAYk15T0RPmG0HyHiaZQwWmAaLZOaJFOVtwNOoilLncGIZduKcRoXJB3MoRX_-NBQBuR5x0Yk22ZckXYCyRZfklh4LjqRalOffw9FPXULYb03vi_NJjtqq74-DK0maBgbQ1dOcbfH6ZN902YbGkVg_uDK3ctW5krKtnngTHTNVs7KQpIPwB_biVBIz2Nx4aL1_I2LAndz0-oyK1WaGqqE7o3zqc7fhjP2dntfshHDxjio6vpr5nzfRmJfdw5v87qfaZdWh5RVyF40wvVOxzBb0gF8fREsXZbs-emrc-Wga37IlvVBOZkWR-JZFc0TIBhhxNNE1yT-YyAb9900Gf6k43JHldqc5bc=w666-h888-no)
 It all started out with a lil' list of things I wanna build, and data sets that sounded interesting. it developed into curiosity about what services 311 provides, and frustration that it's not easy to find out who actually provides those services from Chicago. *Who's in charge around here?!*
 
-### ** Who Lives, Who Dies, Who Tells Your Story **
+### Who Lives, Who Dies, Who Tells Your Story 
 
-I directed my attention towards the Street Names Data set, in the hopes of finding a `Kara Blvd. It bubbled into a desire to find out: Who Are these people with streets named after them? How are streets even named?!
+I directed my attention towards the Street Names Data set, in the hopes of finding a `Kara Blvd`. It bubbled into a desire to find out: *Who Are these people with streets named after them? How are streets even named?!*
 
 Along Came Chi-Street-Story.
 ![what I ended up with](assets/chistreetstory-site.png)
@@ -43,6 +43,7 @@ Next Steps:
   - only cost of street sign replacements, total cost would include maps, etc. [source](http://www.chicagomag.com/Chicago-Magazine/The-312/September-2013/Chicago-Street-Names/)
 
 ## Tools & Resources
+
   - Chicago Data Portal
     - [Chicago Street Names Dataset](https://data.cityofchicago.org/Transportation/Chicago-Street-Names/i6bp-fvbx/data)
     - [API for above dataset](https://dev.socrata.com/foundry/data.cityofchicago.org/pasq-g8mx)
@@ -53,7 +54,6 @@ Next Steps:
   - [Chicago Streets Info](http://www.chsmedia.org/househistory/nameChanges/start.pdf)
   - [Wikipedia list of Chicago Placename etymologies](https://en.wikipedia.org/wiki/List_of_Chicago_placename_etymologies)
   - [Honorary Chicago](http://www.honorarychicago.com/frequently-asked-questions-faq) : a site listing honorary chicago street names
-  -
 
   ## Thanks and Attributions
    - street sign in header by Amos Meron from [the Noun Project](https://thenounproject.com/term/street-sign/28140/)
