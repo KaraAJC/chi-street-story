@@ -1,4 +1,4 @@
-# ChiStreetStory.io
+# ChiStreetStory [https://KaraAJC.github.io/chi-street-story](https://KaraAJC.github.io/chi-street-story)
 
 ChiStreetStory is a site built from a hackathon during the [Nerd Immersion]() event, put on by the [Nerdery]().
 
