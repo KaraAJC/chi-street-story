@@ -1,6 +1,7 @@
 # ChiStreetStory [https://KaraAJC.github.io/chi-street-story](https://KaraAJC.github.io/chi-street-story)
+![site header](assets/chistreetstory-header.png)
 
-ChiStreetStory is a site built from a hackathon during the [Nerd Immersion]() event, put on by the [Nerdery]().
+ChiStreetStory is a site built from a hackathon during the [Nerd Immersion](https://www.nerdery.com/events/nerd-immersion-2017) event, put on by the [Nerdery](https://www.nerdery.com).
 
 ## About
 ![My Nerd immersion Whiteboard](https://lh3.googleusercontent.com/5G9x-9WARvpWlDdFEAkZm8MGnMxKf4HM_5N8NRLi6N8tlybJkI1gLMLS06lWA4UXn7hoghyMHSiXKUTS4KiQxoHQhT57GFV4tPvOyJMLWYSf5H6LFLLahZe9P4Fu2ypw6upVs2u8DSk3DnNcqzDPJ_cD7AkMveojyOZlYBB0KKXtUENJEN7DYeKFLD8Mz0cgYl8lEtRL-mi2crrj42rMPVs6bSwJZQuZC9cFGiALsRA7KHyAUgnF8WJBUUuq8ptB3caWdZ3rSpkrAYk15T0RPmG0HyHiaZQwWmAaLZOaJFOVtwNOoilLncGIZduKcRoXJB3MoRX_-NBQBuR5x0Yk22ZckXYCyRZfklh4LjqRalOffw9FPXULYb03vi_NJjtqq74-DK0maBgbQ1dOcbfH6ZN902YbGkVg_uDK3ctW5krKtnngTHTNVs7KQpIPwB_biVBIz2Nx4aL1_I2LAndz0-oyK1WaGqqE7o3zqc7fhjP2dntfshHDxjio6vpr5nzfRmJfdw5v87qfaZdWh5RVyF40wvVOxzBb0gF8fREsXZbs-emrc-Wga37IlvVBOZkWR-JZFc0TIBhhxNNE1yT-YyAb9900Gf6k43JHldqc5bc=w666-h888-no)
@@ -11,10 +12,11 @@ It all started out with a lil' list of things I wanna build, and data sets that 
 I directed my attention towards the Street Names Data set, in the hopes of finding a `Kara Blvd. It bubbled into a desire to find out: Who Are these people with streets named after them? How are streets even named?!
 
 Along Came Chi-Street-Story.
+![what I ended up with](assets/chistreetstory-site.png)
 
 WooHoos/Blockers/Curiosities:
 - [Google Maps Style](https://mapstyle.withgoogle.com/) Customizing was fascinating!
-![Google Maps with style]()
+![Google Maps with style](assets/chistreetstory-stylemap.png)
 - Street paths aren't as easy as I thought..
   (start/end not enough)
 - I won 3rd place in the hackathon!
